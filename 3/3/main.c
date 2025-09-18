@@ -9,13 +9,13 @@
 
 int main(void) {
     // insert code here...
-    char c, d;
-  
-    printf("enter a character:");
-    scanf("%c", &c);
+    int ja, mo;
     
-    d = c + 1;
-    printf("the next character of %c (%i) is %c (%i).\n",c,c,d,d);
+    printf("enter bunja:");
+    scanf("%d", &ja);
     
-    return 0;
+    printf("enter bunmo:");
+    scanf("%d", &mo);
+    
+    printf("the result (%i,%i) is %f\n", ja, mo, (float)ja/mo);
 }
