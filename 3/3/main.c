@@ -9,12 +9,13 @@
 
 int main(void) {
     // insert code here...
-    char c;
-    int i;
-    printf("input a number:");
+    char c, d;
+  
+    printf("enter a character:");
     scanf("%c", &c);
     
-    i=c-'0';
-    printf("The input number is %i\n", i);
+    d = c + 1;
+    printf("the next character of %c (%i) is %c (%i).\n",c,c,d,d);
+    
     return 0;
 }
